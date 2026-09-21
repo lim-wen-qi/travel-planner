@@ -2,7 +2,11 @@
 
 A cross-platform mobile application for planning and managing trips, developed using React Native and Expo.
 
-The application allows users to organise their trips, manage itineraries, coordinate trip members, and track shared expenses in one place.
+## About
+
+Travel Planner is a mobile application that allows users to organise their trips, manage itineraries, coordinate trip members, and track shared expenses in one place.
+
+The application was designed to bring different parts of trip planning into a single mobile experience, including social features such as adding friends and receiving notifications.
 
 ## Features
 
