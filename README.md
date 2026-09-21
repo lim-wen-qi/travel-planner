@@ -39,17 +39,15 @@ The application can be previewed through Expo Snack:
 
 ## Screenshots
 
-### Login & Account
-<!-- Add screenshots here -->
+### Login, Register & Account
+<img width="924" height="1246" alt="login-register-account" src="https://github.com/user-attachments/assets/800fe021-b23d-4474-b4ff-8e51afc91e6e" />
 
-### Trip Management
-<!-- Add screenshots here -->
+### Add a Friend
+<img width="924" height="1246" alt="friend-req" src="https://github.com/user-attachments/assets/a0c42831-4f97-41dd-9e19-3fc4a38ab56b" />
 
-### Itinerary
-<!-- Add screenshots here -->
+### Add New Trip & Trip Details
+<img width="1232" height="623" alt="trip-detail" src="https://github.com/user-attachments/assets/3334a4e1-8b32-44a8-98e8-9d3eb0b08193" />
 
-### Expense Tracking
-<!-- Add screenshots here -->
 
 ## What I Worked On
 
