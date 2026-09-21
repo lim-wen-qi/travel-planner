@@ -105,7 +105,6 @@ export default function CreateTrip({ navigation }) {
   const saveTrip = async () => {
     // ✅ Validate inputs
     if (!title || !location) return Alert.alert("Error", "Title and location required");
-    if (!countries.includes(location)) return Alert.alert("Error", "Select location from list");
     if (toDate < fromDate) return Alert.alert("Error", "To Date must be later than From Date");
 
     // Insert trip
@@ -172,32 +171,11 @@ export default function CreateTrip({ navigation }) {
         <Text style={tripStyles.label}>Location</Text>
         <TextInput
           style={tripStyles.input}
-          placeholder="Type to search..."
-          value={query}
-          onChangeText={setQuery}
+          placeholder="Enter destination"
+          value={location}
+          onChangeText={setLocation}
           placeholderTextColor="#999"
         />
-        {query.length > 0 && query !== location && filteredCountries.length > 0 && (
-          <FlatList
-            data={filteredCountries}
-            keyExtractor={(item) => item}
-            renderItem={({ item }) => (
-              <TouchableOpacity onPress={() => { setLocation(item); setQuery(item); }}>
-                <Text
-                  style={{
-                    padding: 10,
-                    backgroundColor: item === location ? "#d6f5d6" : "#fff",
-                    borderBottomWidth: 1,
-                    borderBottomColor: "#ccc",
-                  }}
-                >
-                  {item}
-                </Text>
-              </TouchableOpacity>
-            )}
-            style={{ maxHeight: 150, marginBottom: 10 }}
-          />
-        )}
 
         {/* From & To Dates */}
         <Text style={tripStyles.label}>From Date</Text>

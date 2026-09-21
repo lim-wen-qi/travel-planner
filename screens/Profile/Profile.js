@@ -48,8 +48,11 @@ export default function Profile({ navigation }) {
         text: "Logout",
         style: "destructive",
         onPress: async () => {
-          await supabase.auth.signOut();
-          navigation.replace("Login");
+          const { error } = await supabase.auth.signOut();
+
+          if (error) {
+            Alert.alert("Logout Error", error.message);
+          }
         },
       },
     ]);
