@@ -55,9 +55,8 @@ I developed the application's user interface and functionality, including trip m
 
 The project gave me hands-on experience with cross-platform mobile development, reusable React Native components, navigation between screens, application state, and integrating a mobile application with Supabase.
 
-## Running Locally
+## Project Context
 
-1. Clone the repository:
-
-   ```bash
-   git clone YOUR_REPOSITORY_URL
+**Individual Mobile Development Project**  
+Bachelor of Science (Honours) in Computer Science  
+University of London
