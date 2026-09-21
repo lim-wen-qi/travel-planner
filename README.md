@@ -40,13 +40,13 @@ The application can be previewed through Expo Snack:
 ## Screenshots
 
 ### Login, Register & Account
-<img width="924" height="1246" alt="login-register-account" src="https://github.com/user-attachments/assets/800fe021-b23d-4474-b4ff-8e51afc91e6e" />
+<img width="1848" height="623" alt="login-register-account" src="https://github.com/user-attachments/assets/318c2135-5014-4d44-9f38-e825395dcce9" />
 
 ### Add a Friend
-<img width="924" height="1246" alt="friend-req" src="https://github.com/user-attachments/assets/a0c42831-4f97-41dd-9e19-3fc4a38ab56b" />
+<img width="1844" height="623" alt="friend-req" src="https://github.com/user-attachments/assets/09b140a0-2c83-41df-b77e-3cc6f2f23141" />
 
 ### Add New Trip & Trip Details
-<img width="1232" height="623" alt="trip-detail" src="https://github.com/user-attachments/assets/3334a4e1-8b32-44a8-98e8-9d3eb0b08193" />
+<img width="1531" height="623" alt="trip-detail" src="https://github.com/user-attachments/assets/27accb6e-5353-498d-89ea-241579f97cbb" />
 
 
 ## What I Worked On
